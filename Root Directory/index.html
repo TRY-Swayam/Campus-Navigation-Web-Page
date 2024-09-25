@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campus Navigation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Campus Navigation</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="https://linktr.ee/try_swayam">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="home">
+            <h2>Find Your Way</h2>
+            <form id="navigation-form">
+                <label for="start">Starting Point:</label>
+                <select id="start" name="start">
+                    <option value="" disabled selected>Select your starting point</option>
+                    <option value="Main Gate">Main Gate</option>
+                    <option value="IOIT">IOIT</option>
+                    <option value="Pharmacy">Pharmacy</option>
+                    <option value="COE">COE</option>
+                    <option value="Polytechnic">Polytechnic</option>
+                    <option value="MBA">MBA</option>
+                </select>
+
+                <label for="destination">Destination:</label>
+                <select id="destination" name="destination">
+                    <option value="" disabled selected>Select your destination</option>
+                    <option value="Main Gate">Main Gate</option>
+                    <option value="IOIT">IOIT</option>
+                    <option value="Pharmacy">Pharmacy</option>
+                    <option value="COE">COE</option>
+                    <option value="Polytechnic">Polytechnic</option>
+                    <option value="MBA">MBA</option>
+                </select>
+
+                <button type="button" onclick="showRoute()">Show Route</button>
+            </form>
+
+            <div id="map-container">
+                <img id="campus-map">
+            </div>
+
+            <div id="route-info"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Campus Navigation. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

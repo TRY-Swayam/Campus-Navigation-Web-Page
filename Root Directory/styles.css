@@ -1,0 +1,177 @@
+/* Resetting basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: ;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-image: url(scratch.jpg);
+    background-size: cover;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    background-color: #003bc6;
+    color: rgb(255, 255, 255);
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #333;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    
+}
+
+/* Navigation Styling */
+nav ul {
+    list-style-type: none;
+    padding: 5px;
+    text-align: center;
+    background-color: #15304b;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #007bff;
+    border-radius: 5px;
+}
+
+/* Main Section Styling */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-image: url(map2.png);
+    background-size: contain;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #313131;
+    text-align: center;
+    
+}
+
+/* Form Styling */
+form {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #e7e7e7;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+form select {
+    padding: 8px;
+    margin-right: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #333;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 40%;
+    margin-top: 5px;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+/* Map Container Styling */
+#map-container {
+    margin-top: 20px;
+    text-align: center;
+    
+    
+}
+
+#campus-map {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Route Information Styling */
+#route-info {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    color: #333;
+    font-size: 1.1rem;
+    bottom: 50px;
+}
+#f1{
+    text-align: center;
+    padding: 5px;
+    background-color: #565723;
+    color: white;
+    margin-top: 20px;
+    position: fixed;
+    bottom: 35px;
+    width: 100%;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Footer Styling */
+#f2 {
+    text-align: center;
+    padding: 5px;
+    background-color: #333;
+    color: white;
+    margin-top: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+}
