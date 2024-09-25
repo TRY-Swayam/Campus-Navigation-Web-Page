@@ -2,6 +2,9 @@
 
 A simple web application that helps users navigate between locations on campus by selecting starting and destination points.
 
+## Preview
+LINK: https://swayam2106.w3spaces.com
+
 ## Features
 
 - Select starting and destination points.
